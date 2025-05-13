@@ -5,4 +5,187 @@
 
   <p> Text of section. </p>
 
+  <p>
+    This is a story about <em>Harish Bhatt</em>. Harish is represented by <m>\displaystyle HB(x)=\int_0^{x^2} hb(x) dx</m>
+
+    <me>HB(x)=\int_0^{x^2} hb(x)\, dx</me>
+
+    <m>HB(x)=\int_0^{x^2} hb(x) dx</m>
+  </p>
+
+  <objectives xml:id="objectives-structures">
+  <title>Fundamental Structures</title>
+  <introduction>
+    <p>
+      This is an <tag>objectives</tag> element you are reading,
+      and this is its introduction.
+      This early section has really grown and tries to accomplish many things.
+      Not all of them are listed here.
+    </p>
+  </introduction>
+  <ol>
+    <li xml:id="objective-structure">
+      Display various
+      <q>blocks</q>, fundamental units of the flow.
+    </li>
+    <li>More.</li>
+    <li>Evermore.</li>
+  </ol>
+  <conclusion>
+    <p>
+      This concludes the (incomplete) objectives for this section,
+      so now we can carry-on as before.
+    </p>
+  </conclusion>
+</objectives>
+
+<definition xml:id="definition-indefinite-integral">
+  <idx>indefinite integral</idx>
+  <idx><h>integral</h><h>indefinite integral</h></idx>
+  <notation>
+    <usage><m>\int\,f(x)\,dx</m></usage>
+    <description>indefinite integral of <m>f(x)</m></description>
+  </notation>
+  <statement>
+    <p>
+      Suppose that <m>\frac{d}{dx}F(x)=f(x)</m>.
+      Then the <term>indefinite integral</term>
+      of <m>f(x)</m> is <m>F(x)</m> and is written as
+      <me>
+        \int\,f(x)\,dx=F(x)
+      </me>.
+    </p>
+  </statement>
+</definition>
+
+<p>
+  Harish likes to drink the following beverages during happy hour:
+</p>
+<tabular left="medium" top="medium" bottom="medium" right="medium">
+    <row>
+    <cell>beer</cell>
+    <cell>vodka</cell>
+    <cell>wine</cell>
+  </row>
+  <row>
+    <cell>two beers</cell>
+    <cell>two vodkas</cell>
+    <cell>two wines</cell>
+  </row>
+</tabular>
+
+<sidebyside>
+  <p>
+    <me>
+      f(x)=2x
+    </me>
+    
+  </p>
+  
+<table xml:id="HarishDrinking">
+<title>Harish Happy Hour Function Table</title>
+<tabular left="medium" top="medium" bottom="medium" right="medium">
+    <row>
+    <cell>beer</cell>
+    <cell>vodka</cell>
+    <cell>wine</cell>
+  </row>
+  <row>
+    <cell>two beers</cell>
+    <cell>two vodkas</cell>
+    <cell>two wines</cell>
+  </row>
+</tabular>
+</table>
+
+</sidebyside>
+
+<problem>
+  <statement>
+    <p>
+      Prove that the tangent bundle of a differentiable <m>n</m>-manifold has dimension <m>2n</m>.
+    </p>
+  </statement>
+  <hint>
+    <p>
+      Provide an atlas for the tangent bundle.
+    </p>
+  </hint>
+</problem>
+
+<assemblage xml:id="assemblage-">
+  <title>What we learned</title>
+  <p>
+  Harish likes to drink during happy hour.
+  </p>
+</assemblage>
+
+<aside xml:id="summary-sec2" class="summary">
+  <title>What We Learned</title>
+  <p>In this section, we explored how Harish likes to drink during happy hour.</p>
+</aside>
+
+<figure>
+<caption>Illustrating Harish's Alcohol Intake</caption>
+<image>
+<prefigure xmlns="https://prefigure.org" label="test">
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+  <definition>f(x)=x^2*sin(1/x^2)</definition>
+  <definition>a = 1</definition>
+  <coordinates bbox="(-1,-1,1,1)">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f" stroke="purple" N="1000"/>
+    <tangent-line function="f" point="a" stroke="yellow"/>
+    <point p="(a,f(a))" alignment="sw">
+      <m>(${a},${f(a)})</m>
+    </point>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+</figure>
+
+<sidebyside>
+<figure>
+<caption>Illustrating Harish's Alcohol Intake</caption>
+<image>
+<prefigure xmlns="https://prefigure.org" label="test">
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+  <definition>f(x)=x^2*sin(1/x^2)</definition>
+  <definition>a = 1</definition>
+  <coordinates bbox="(-1,-1,1,1)">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f" stroke="purple" N="1000"/>
+    <tangent-line function="f" point="a" stroke="yellow"/>
+    <point p="(a,f(a))" alignment="sw">
+      <m>(${a},${f(a)})</m>
+    </point>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+</figure>
+
+<figure>
+<caption>Illustrating Harish's Alcohol Intake</caption>
+<image>
+<prefigure xmlns="https://prefigure.org" label="test">
+<diagram dimensions="(300,300)" margins="5" xmlns="https://prefigure.org">
+  <definition>f(x)=x^2*sin(1/x^2)</definition>
+  <definition>a = 1</definition>
+  <coordinates bbox="(-1,-1,1,1)">
+    <grid-axes xlabel="x" ylabel="y"/>
+    <graph function="f" stroke="purple" N="1000"/>
+    <tangent-line function="f" point="a" stroke="yellow"/>
+    <point p="(a,f(a))" alignment="sw">
+      <m>(${a},${f(a)})</m>
+    </point>
+  </coordinates>
+</diagram>
+</prefigure>
+</image>
+</figure>
+</sidebyside>
+
+I am trying to learn how to collaborate
 </section>
